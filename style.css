@@ -1,0 +1,40 @@
+body{
+    background-color: #a0f1e4;
+    margin: 0;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn{
+    width: 150px;
+    background-color: #f4f8c6;
+    border: none;
+    color: #232323;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin: 0;
+    -webkit-box-shadow: 11px 15px 10px 2px rgba(128, 174, 204, 0.23); 
+    -moz-box-shadow: 11px 15px 10px 2px rgba(128, 174, 204, 0.23);
+    box-shadow: 11px 15px 10px 2px rgba(128, 174, 204, 0.23);
+   
+}
+
+#photo{
+    max-width: 500px;
+    -webkit-box-shadow: 11px 15px 10px 2px rgba(128, 174, 204, 0.23); 
+    -moz-box-shadow: 11px 15px 10px 2px rgba(128, 174, 204, 0.23);
+    box-shadow: 11px 15px 10px 2px rgba(128, 174, 204, 0.23);
+}
+
+@media (max-width: 700px){
+    #photo{
+        width: 250px;
+        }  
+}
+
